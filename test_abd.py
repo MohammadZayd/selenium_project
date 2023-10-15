@@ -23,7 +23,7 @@ def my_cred():
     return [
         ('testuser','test123'),
         ('hello','shello'),
-        ('myname','mypass')
+        ('goodname','goodpass')
     ]
 
 @pytest.mark.parametrize('username,password',my_cred())
