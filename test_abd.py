@@ -9,7 +9,7 @@ from allure_commons.types import AttachmentType
 def setup_function():
     global driver
     options = Options()
-    options.add_argument('--headless')
+    #options.add_argument('--headless')
     #hub_url = "http://192.168.100.53:4444/wd/hub"   #windows
     #hub_url = "http://192.168.100.14:4444/wd/hub"
     #driver= webdriver.Remote(command_executor=hub_url,options=options)
