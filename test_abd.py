@@ -32,4 +32,4 @@ def test_login(username,password):
     driver.find_element(By.NAME,'email').send_keys(username)
     time.sleep(0.7)
     driver.find_element(By.NAME,'password').send_keys(password)
-    #allure.attach(driver.get_screenshot_as_png(),name="myalnafi_sc",attachment_type=AttachmentType.PNG)
+    allure.attach(driver.get_screenshot_as_png(),name="myalnafi_sc",attachment_type=AttachmentType.PNG)
